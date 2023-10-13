@@ -5,7 +5,12 @@
     <a href="https://github.com/gobuffalo/pop/actions?query=workflow%3ATests+branch%3Amain"><img src="https://github.com/gobuffalo/pop/workflows/Tests/badge.svg" alt="Build Status" /></a>
 </p>
 
-# POP
+# POP v6.1.2 By Rujax Chen
+
+## New Features in v6.1.2
+
+- Add comment support for MySQL Server.
+- Add SQL log output on debug/verbose mode.
 
 ## A Tasty Treat For All Your Database Needs
 

@@ -26,3 +26,5 @@ require (
 	golang.org/x/sync v0.1.0
 	gopkg.in/yaml.v2 v2.4.0
 )
+
+replace github.com/gobuffalo/fizz => github.com/rujax/fizz v1.14.5

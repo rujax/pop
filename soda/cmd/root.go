@@ -19,7 +19,12 @@ var RootCmd = &cobra.Command{
 	SilenceUsage: true,
 	Short:        "A tasty treat for all your database needs",
 	PersistentPreRun: func(c *cobra.Command, args []string) {
-		fmt.Printf("pop %s\n\n", Version)
+		if version {
+			fmt.Printf("pop %s By Rujax Chen\n", Version)
+			return
+		}
+
+		fmt.Printf("pop %s By Rujax Chen\n\n", Version)
 
 		/* NOTE: Do not use c.PersistentFlags. `c` is not always the
 		RootCmd. The naming is confusing. The meaning of "persistent"
